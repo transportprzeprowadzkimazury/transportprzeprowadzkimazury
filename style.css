@@ -1,206 +1,47 @@
-{\rtf1\ansi\ansicpg1250\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 body \{\
-  margin: 0;\
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,\
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;\
-  background: #fff;\
-  color: #1d1d1f;\
-  line-height: 1.6;\
-\}\
-\
-a \{\
-  color: #0071e3;\
-  text-decoration: none;\
-\}\
-\
-a:hover \{\
-  text-decoration: underline;\
-\}\
-\
-header \{\
-  background-color: #0a1a3a;\
-  padding: 20px 40px;\
-  display: flex;\
-  align-items: center;\
-  justify-content: space-between;\
-\}\
-\
-.logo \{\
-  color: white;\
-  font-weight: 700;\
-  font-size: 28px;\
-  letter-spacing: 1.5px;\
-\}\
-\
-nav a \{\
-  color: white;\
-  margin-left: 30px;\
-  font-weight: 600;\
-  font-size: 16px;\
-\}\
-\
-nav a:hover \{\
-  opacity: 0.8;\
-\}\
-\
-.container \{\
-  max-width: 1100px;\
-  margin: 0 auto;\
-  padding: 40px 20px;\
-\}\
-\
-.cards \{\
-  display: grid;\
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\
-  gap: 30px;\
-  margin-top: 40px;\
-\}\
-\
-.card \{\
-  background: #f5f5f7;\
-  border-radius: 18px;\
-  padding: 30px 25px;\
-  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.08);\
-  transition: box-shadow 0.3s ease;\
-  cursor: default;\
-\}\
-\
-.card:hover \{\
-  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.15);\
-\}\
-\
-.card h3 \{\
-  margin-top: 0;\
-  margin-bottom: 15px;\
-  font-weight: 700;\
-  font-size: 22px;\
-  color: #001f3f;\
-\}\
-\
-.card p \{\
-  font-size: 16px;\
-  color: #333;\
-\}\
-\
-footer \{\
-  background-color: #0a1a3a;\
-  color: #c4c4c4;\
-  text-align: center;\
-  padding: 25px 0;\
-  margin-top: 60px;\
-  font-size: 14px;\
-\}\
-\
-button \{\
-  background-color: #0071e3;\
-  border: none;\
-  padding: 14px 24px;\
-  border-radius: 14px;\
-  color: white;\
-  font-weight: 600;\
-  font-size: 16px;\
-  cursor: pointer;\
-  transition: background-color 0.3s ease;\
-\}\
-\
-button:hover \{\
-  background-color: #005bb5;\
-\}\
-\
-form label \{\
-  display: block;\
-  margin-top: 15px;\
-  font-weight: 600;\
-  color: #001f3f;\
-\}\
-\
-form input[type="text"],\
-form input[type="email"],\
-form input[type="date"],\
-form textarea \{\
-  width: 100%;\
-  padding: 10px;\
-  margin-top: 8px;\
-  border: 1px solid #ddd;\
-  border-radius: 8px;\
-  font-size: 16px;\
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,\
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;\
-  box-sizing: border-box;\
-\}\
-\
-form textarea \{\
-  resize: vertical;\
-  min-height: 120px;\
-\}\
-\
-/* Baner cookies */\
-#cookie-banner \{\
-  position: fixed;\
-  bottom: 20px;\
-  left: 20px;\
-  right: 20px;\
-  background: #0a1a3a;\
-  color: #fff;\
-  padding: 20px 30px;\
-  border-radius: 15px;\
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);\
-  display: flex;\
-  flex-wrap: wrap;\
-  align-items: center;\
-  justify-content: space-between;\
-  font-size: 16px;\
-  z-index: 1000;\
-  display: none; /* domy\uc0\u347 lnie ukryty */\
-\}\
-\
-#cookie-banner p \{\
-  margin: 0;\
-  flex: 1 1 70%;\
-\}\
-\
-#cookie-banner button \{\
-  background-color: #0071e3;\
-  border: none;\
-  padding: 12px 24px;\
-  border-radius: 12px;\
-  color: white;\
-  font-weight: 700;\
-  font-size: 16px;\
-  cursor: pointer;\
-  flex: 1 1 25%;\
-  max-width: 150px;\
-  transition: background-color 0.3s ease;\
-\}\
-\
-#cookie-banner button:hover \{\
-  background-color: #005bb5;\
-\}\
-\
-@media (max-width: 500px) \{\
-  #cookie-banner \{\
-    flex-direction: column;\
-    text-align: center;\
-  \}\
-  #cookie-banner p, #cookie-banner button \{\
-    flex: 1 1 100%;\
-    max-width: 100%;\
-    margin-bottom: 10px;\
-  \}\
-\}\
-\
-@media (max-width: 600px) \{\
-  nav \{\
-    display: flex;\
-    flex-wrap: wrap;\
-  \}\
-  nav a \{\
-    margin: 10px 15px 0 0;\
-  \}\
-\}}
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #001F3F;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #001F3F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background: #001F3F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f1c40f;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
