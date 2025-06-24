@@ -1,34 +1,87 @@
-<!DOCTYPE html>
-<html lang="pl">
+{\rtf1\ansi\ansicpg1250\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kontakt - TPM</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-    
-<header>
-    <div class="container">
-        <div class="logo">TPM</div>
-        <nav>
-            <a href="index.html">Strona Główna</a>
-            <a href="onas.html">O nas</a>
-            <a href="oferta.html">Oferta</a>
-            <a href="kontakt.html">Kontakt</a>
-            <a href="wycena.html">Formularz Wyceny</a>
-        </nav>
-    </div>
-</header>
-
-    <main class="content">
-        <h2>Kontakt</h2>
-        <p>Telefon: <strong>504 933 456</strong></p>
-        <p>Email: <strong>przeprowadzkigizycko@gmail.com</strong></p>
-    </main>
-    <footer><p>&copy; 2025 TPM</p></footer>
-</body>
-</html>
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="pl">\
+<head>\
+\'a0\'a0<meta charset="UTF-8" />\
+\'a0\'a0<meta name="viewport" content="width=device-width, initial-scale=1" />\
+\'a0\'a0<title>Kontakt - TPM</title>\
+\'a0\'a0<link rel="stylesheet" href="style.css" />\
+</head>\
+<body>\
+<header>\
+\'a0\'a0<div class="logo">TPM</div>\
+\'a0\'a0<nav>\
+\'a0\'a0\'a0\'a0<a href="index.html">Strona G\uc0\u322 \'f3wna</a>\
+\'a0\'a0\'a0\'a0<a href="onas.html">O nas</a>\
+\'a0\'a0\'a0\'a0<a href="oferta.html">Oferta</a>\
+\'a0\'a0\'a0\'a0<a href="kontakt.html">Kontakt</a>\
+\'a0\'a0\'a0\'a0<a href="wycena.html">Formularz Wyceny</a>\
+\'a0\'a0</nav>\
+</header>\
+\
+<main class="container">\
+\'a0\'a0<h2>Kontakt</h2>\
+\'a0\'a0<p><strong>Telefon:</strong> 504 933 456</p>\
+\'a0\'a0<p><strong>Email:</strong> przeprowadzkigizycko@gmail.com</p>\
+\
+\'a0\'a0<h3>Formularz kontaktowy</h3>\
+\'a0\'a0<form action="https://formspree.io/f/xwkgrbja" method="POST">\
+\'a0\'a0\'a0\'a0<label>Imi\uc0\u281  i nazwisko</label>\
+\'a0\'a0\'a0\'a0<input type="text" name="name" required />\
+\
+\'a0\'a0\'a0\'a0<label>Adres e-mail</label>\
+\'a0\'a0\'a0\'a0<input type="email" name="email" required />\
+\
+\'a0\'a0\'a0\'a0<label>Wiadomo\uc0\u347 \u263 </label>\
+\'a0\'a0\'a0\'a0<textarea name="message" rows="6" required></textarea>\
+\
+\'a0\'a0\'a0\'a0<button type="submit">Wy\uc0\u347 lij wiadomo\u347 \u263 </button>\
+\'a0\'a0</form>\
+\
+\'a0\'a0<h3>Lokalizacja \'96 Gi\uc0\u380 ycko</h3>\
+\'a0\'a0<div style="margin-top: 20px;">\
+\'a0\'a0\'a0\'a0<iframe\
+\'a0\'a0\'a0\'a0\'a0\'a0src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73730.58716330608!2d21.708312960365957!3d54.03624066261806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e1a8b0cc8d373d%3A0xb3a45f78b42adadf!2sGi%C5%BCycko!5e0!3m2!1spl!2spl!4v1719240987300!5m2!1spl!2spl"\
+\'a0\'a0\'a0\'a0\'a0\'a0width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>\
+\'a0\'a0</div>\
+</main>\
+\
+<footer>\
+\'a0\'a0&copy; 2025 TPM - Transport i Przeprowadzki Mazury\
+</footer>\
+\
+<!-- Baner cookies -->\
+<div id="cookie-banner">\
+\'a0\'a0<p>Nasza strona u\uc0\u380 ywa plik\'f3w cookie, aby zapewni\u263  najlepsze do\u347 wiadczenia. Korzystaj\u261 c z niej, wyra\u380 asz zgod\u281  na ich u\u380 ywanie.</p>\
+\'a0\'a0<button id="accept-cookies">Akceptuj\uc0\u281 </button>\
+</div>\
+\
+<script>\
+\'a0\'a0const banner = document.getElementById('cookie-banner');\
+\'a0\'a0const acceptBtn = document.getElementById('accept-cookies');\
+\
+\'a0\'a0function checkCookieConsent() \{\
+\'a0\'a0\'a0\'a0return localStorage.getItem('cookieAccepted') === 'true';\
+\'a0\'a0\}\
+\
+\'a0\'a0function showBanner() \{\
+\'a0\'a0\'a0\'a0if (!checkCookieConsent()) \{\
+\'a0\'a0\'a0\'a0\'a0\'a0banner.style.display = 'flex';\
+\'a0\'a0\'a0\'a0\}\
+\'a0\'a0\}\
+\
+\'a0\'a0acceptBtn.addEventListener('click', () => \{\
+\'a0\'a0\'a0\'a0localStorage.setItem('cookieAccepted', 'true');\
+\'a0\'a0\'a0\'a0banner.style.display = 'none';\
+\'a0\'a0\});\
+\
+\'a0\'a0document.addEventListener('DOMContentLoaded', showBanner);\
+</script>\
+</body>\
+</html>}
