@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz Wyceny - TPM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+<header>
+    <div class="container">
+        <div class="logo">TPM</div>
+        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="onas.html">O nas</a>
+            <a href="oferta.html">Oferta</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="wycena.html">Formularz Wyceny</a>
+        </nav>
+    </div>
+</header>
+
+    <main class="content">
+        <h2>Formularz wyceny</h2>
+        <p>Aby uzyskać indywidualną ofertę cenową, odpowiedz na poniższe pytania i zamieść je w opisie przeprowadzki.</p>
+        <form>
+            <label>Planowana data przeprowadzki *</label>
+            <input type="date" required>
+
+            <label>Opis przeprowadzki</label>
+            <textarea rows="12" placeholder="Np. Miejsce odbioru: 2. piętro bez windy, dojazd do klatki możliwy tylko do bramy..."></textarea>
+
+            <p><strong>Pomocnicze pytania (ujmij je w opisie):</strong></p>
+            <ul>
+                <li>Skąd zabieramy rzeczy – które piętro, czy jest winda, czy wszystko się do niej mieści, jak daleko od wejścia?</li>
+                <li>Dokąd przewozimy – piętro, winda, dojazd do klatki?</li>
+                <li>Jaki termin przeprowadzki preferujesz?</li>
+                <li>Jakie meble i sprzęty będą przewożone?</li>
+                <li>Ile mniej więcej kartonów, worków itp.?</li>
+                <li>Czy są nietypowo ciężkie przedmioty (np. sejf, pianino)?</li>
+                <li>Czy coś wymaga szczególnego zabezpieczenia?</li>
+                <li>Czy coś trzeba zdemontować?</li>
+                <li>Inne utrudnienia – np. wąskie schody, zakazy ruchu, brak parkingu.</li>
+            </ul>
+
+            <button type="submit">Wyceń przeprowadzkę</button>
+        </form>
+    </main>
+    <footer><p>&copy; 2025 TPM</p></footer>
+</body>
+</html>
